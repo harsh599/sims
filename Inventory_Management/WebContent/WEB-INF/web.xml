@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Inventory_Management</display-name>
+  <servlet>
+    <servlet-name>checklogin</servlet-name>
+    <servlet-class>com.servlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checklogin</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>checksignup</servlet-name>
+    <servlet-class>com.servlet.Signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checksignup</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>addinventory</servlet-name>
+    <servlet-class>com.servlet.Add_Item</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addinventory</servlet-name>
+    <url-pattern>/additem</url-pattern>
+  </servlet-mapping>
+</web-app>
