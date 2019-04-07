@@ -1,1 +1,15 @@
-here we are developing a smart inventory management system
+#- Sims-Smart Inventory Management System -#
+This is our final year project where I along with a bunch of Enthusiast developers developing a Business analytics tool that will help the 
+organizations to carry out all the analysis in an automated fashion which will help the organization to grow in an enormous fashion 
+thus overcoming the overhead of manual work.
+In this tool we are using technologies like JAVA,JSP,SERVLET,MYSQL Workbench,HTML,CSS,Java Script along with incorporation of AI&ML.
+Our Idea has also won the 3rd Prize for the best final year project competetion in the final year.
+
+Crucial features:->
+1.Recommendation System.
+2.Inventory Portal.
+3.Employee Management and Performace analysis.
+4.Sales Prediction.
+5.Invoice Generation over Email.
+
+#Under Development#
